@@ -263,7 +263,9 @@ header{
     .container-4 .img-box2{
       margin:0 1em;;
     }
-   
+   .container-4 h4{
+    font-size:1em;
+   }
   }
 main h4{
   display:flex;
