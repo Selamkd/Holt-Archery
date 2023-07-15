@@ -84,9 +84,14 @@ header{
     font-size: 3em;
     font-family: 'Playfair Display', serif;
   }
+  @media  (max-width: 500px) {
+    .container h1{
+     width:40%;
+    }
+}
   @media (max-width: 767px) {
    .container {
-
+        overflow: hidden;
         background-attachment: initial;
     
     }
@@ -103,6 +108,7 @@ header{
   flex-direction:column;
   justify-content: flex-start;
   max-height:400px;
+  overflow:hidden;
 }
  
   .container-2 h2{
@@ -155,6 +161,7 @@ header{
       }
   }
   @media (max-width:500px) {
+    
     .container-2 h1{
       font-size:2.2em;
     }
